@@ -1,0 +1,39 @@
+
+#notred {
+    color: maroon
+}
+
+h1 {
+    color:rgb(233, 47, 47) !important;
+
+}
+
+/* esto es un comentario */
+.paravarioselementos {
+    color: rosybrown;
+}
+
+h1.paravarioselementos {
+    background-color:salmon;
+    font-size: 20px;
+    font-weight: 50;
+    line-height: 15mm;
+    word-wrap: break-word;
+}
+
+h1, p, li, #notred {
+    background-color: royalblue;
+}
+
+h1#notred {
+
+}
+
+* {
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    line-height:5mm;
+}
