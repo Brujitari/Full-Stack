@@ -1,0 +1,308 @@
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~
+$ cd Desktop/PROGRAMACIÓN\ FULL\ STACK/HTML/
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git add "Día 1.html"
+fatal: pathspec 'Día 1.html' did not match any files
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ ls
+'Día 1'/  'Día 2'/  'Día 3'/  'Día 4'/
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git add Día\
+Día 1/ Día 2/ Día 3/ Día 4/
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git add Día\ 1
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git status
+On branch nat
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   "D\303\255a 1/EJERCICIO Carta.html"
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "D\303\255a 2/"
+        "D\303\255a 3/"
+        "D\303\255a 4/"
+
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git commit -m "Primera clase completada"
+[nat (root-commit) 9af0e37] Primera clase completada
+ 1 file changed, 39 insertions(+)
+ create mode 100644 "D\303\255a 1/EJERCICIO Carta.html"
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git status
+On branch nat
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "D\303\255a 2/"
+        "D\303\255a 3/"
+        "D\303\255a 4/"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git log
+commit 9af0e37cc3065cdc96db9440046d8f0b439f3636 (HEAD -> nat)
+Author: Brujitari <natimontesg2@mail.com>
+Date:   Thu Feb 3 19:09:54 2022 +0100
+
+    Primera clase completada
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ :q
+bash: :q: command not found
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git log
+commit 9af0e37cc3065cdc96db9440046d8f0b439f3636 (HEAD -> nat)
+Author: Brujitari <natimontesg2@mail.com>
+Date:   Thu Feb 3 19:09:54 2022 +0100
+
+    Primera clase completada
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git status
+On branch nat
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "D\303\255a 2/"
+        "D\303\255a 3/"
+        "D\303\255a 4/"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git add Día\ 2
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git status
+On branch nat
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   "D\303\255a 2/Cat - 39009.mp4"
+        new file:   "D\303\255a 2/EJERCICIO Tabla Gimnasio.html"
+        new file:   "D\303\255a 2/Pr\303\241ctica Emmet.html"
+        new file:   "D\303\255a 2/animal_6.mp3"
+        new file:   "D\303\255a 2/foto gato.webp"
+        new file:   "D\303\255a 2/gatitos.html"
+        new file:   "D\303\255a 2/prueba clase 2.html"
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "D\303\255a 3/"
+        "D\303\255a 4/"
+
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git commit -m "Segunda clase"
+[nat 3114668] Segunda clase
+ 7 files changed, 223 insertions(+)
+ create mode 100644 "D\303\255a 2/Cat - 39009.mp4"
+ create mode 100644 "D\303\255a 2/EJERCICIO Tabla Gimnasio.html"
+ create mode 100644 "D\303\255a 2/Pr\303\241ctica Emmet.html"
+ create mode 100644 "D\303\255a 2/animal_6.mp3"
+ create mode 100644 "D\303\255a 2/foto gato.webp"
+ create mode 100644 "D\303\255a 2/gatitos.html"
+ create mode 100644 "D\303\255a 2/prueba clase 2.html"
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git log
+commit 3114668525e2a8b05cc9b02bf027971233fd79fa (HEAD -> nat)
+Author: Brujitari <natimontesg2@mail.com>
+Date:   Thu Feb 3 19:14:25 2022 +0100
+
+    Segunda clase
+
+commit 9af0e37cc3065cdc96db9440046d8f0b439f3636
+Author: Brujitari <natimontesg2@mail.com>
+Date:   Thu Feb 3 19:09:54 2022 +0100
+
+    Primera clase completada
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git add Día\ 3
+warning: LF will be replaced by CRLF in Día 3/third_class.html.
+The file will have its original line endings in your working directory
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git commit -m "Tercera Clase"
+[nat 4b6ec81] Tercera Clase
+ 3 files changed, 239 insertions(+)
+ create mode 100644 "D\303\255a 3/EJERCICIO formulario.html"
+ create mode 100644 "D\303\255a 3/Form.html"
+ create mode 100644 "D\303\255a 3/third_class.html"
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git log
+commit 4b6ec81c5228de9b0e0e447ff49e943e0220d627 (HEAD -> nat)
+Author: Brujitari <natimontesg2@mail.com>
+Date:   Thu Feb 3 20:14:34 2022 +0100
+
+    Tercera Clase
+
+commit 3114668525e2a8b05cc9b02bf027971233fd79fa
+Author: Brujitari <natimontesg2@mail.com>
+Date:   Thu Feb 3 19:14:25 2022 +0100
+
+    Segunda clase
+
+commit 9af0e37cc3065cdc96db9440046d8f0b439f3636
+Author: Brujitari <natimontesg2@mail.com>
+Date:   Thu Feb 3 19:09:54 2022 +0100
+
+    Primera clase completada
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git remote add origin https://github.com/Brujitari/Full-Stack.git
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git status
+On branch nat
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "D\303\255a 4/"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git add
+.git/  Día 1/ Día 2/ Día 3/ Día 4/
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git add
+.git/  Día 1/ Día 2/ Día 3/ Día 4/
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git add
+.git/  Día 1/ Día 2/ Día 3/ Día 4/
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git add
+.git/  Día 1/ Día 2/ Día 3/ Día 4/
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git add Día\ 4
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git commit -m "Cuarta clase"
+On branch nat
+nothing to commit, working tree clean
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (nat)
+$ git branch -M main
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (main)
+$ git push -u origin main
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (20/20), 2.06 MiB | 2.65 MiB/s, done.
+Total 20 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Brujitari/Full-Stack.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (main)
+$ git commit
+.git/  Día 1/ Día 2/ Día 3/ Día 4/
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (main)
+$ git commit Día\ 1 --ammend
+error: unknown option `ammend'
+usage: git commit [<options>] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup [(amend|reword):]commit
+                          use autosquash formatted message to fixup or amend/reword specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    --trailer <trailer>   add custom trailer(s)
+    -s, --signoff         add a Signed-off-by trailer
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <mode>      how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --ahead-behind        compute full ahead/behind values
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (main)
+$ git commit --amend Día\ 1
+[main 7bfe6c1] Tercera Clase
+ Date: Thu Feb 3 20:14:34 2022 +0100
+ 3 files changed, 239 insertions(+)
+ create mode 100644 "D\303\255a 3/EJERCICIO formulario.html"
+ create mode 100644 "D\303\255a 3/Form.html"
+ create mode 100644 "D\303\255a 3/third_class.html"
+
+canol@LAPTOP-MCMNFUVH MINGW64 ~/Desktop/PROGRAMACIÓN FULL STACK/HTML (main)
+$ git log
+commit 7bfe6c1529c33036d27b2e5e27336a671826cf1b (HEAD -> main)
+Author: Brujitari <natimontesg2@mail.com>
+Date:   Thu Feb 3 20:14:34 2022 +0100
+
+    Tercera Clase
+
+commit 3114668525e2a8b05cc9b02bf027971233fd79fa
+Author: Brujitari <natimontesg2@mail.com>
+Date:   Thu Feb 3 19:14:25 2022 +0100
+
+    Segunda clase
+
+commit 9af0e37cc3065cdc96db9440046d8f0b439f3636
+Author: Brujitari <natimontesg2@mail.com>
+Date:   Thu Feb 3 19:09:54 2022 +0100
+
+    Primera clase completada
+
