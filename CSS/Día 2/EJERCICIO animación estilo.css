@@ -1,0 +1,83 @@
+.privilegiades{
+    transform: translate(200);
+    animation-name: privi;
+    animation-duration: 5s;
+}
+
+@keyframes privi {
+    100% {
+        transform: translate(100px);
+    }
+}
+
+.objetos {
+    animation-name: objetos;
+    animation-duration: 5s;
+}
+
+@keyframes objetos {
+    0% {
+        transform: rotate(-45deg);
+    }
+    100%{
+        transform: none ;
+    }
+}
+
+#bruja {
+    animation-name: bruji;
+    animation-duration: 5s;
+}
+
+@keyframes bruji {
+
+    100%{
+        transform: matrix(1,2,-1,1, 800 ,-700) ;
+    }
+} 
+
+#bruja:hover{
+    animation-name: bruja;
+    animation-duration: 5s;
+}
+ 
+@keyframes bruja {
+
+    100%{
+        transform: skew(20deg,10deg) ;
+    }
+} 
+
+
+#dragon:hover{
+    animation-name: dragon;
+    animation-duration: 5s;
+}
+ 
+@keyframes dragon {
+
+    100%{
+        transform: scale(3) ;
+    }
+}
+
+
+#nomo:hover{
+    animation-name: nomo;
+    animation-duration: 5s;
+}
+ 
+@keyframes nomo {
+
+    100%{
+        transform: rotate(360deg) ;
+    }
+}
+
+body {
+
+    background-image: url(Assets/trippy\ fondo.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
