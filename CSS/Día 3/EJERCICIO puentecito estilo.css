@@ -4,10 +4,6 @@
 }
 
 
-.entrenoticias {
-    text-align: center;
-    color:purple;
-}
 
 h1 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -16,6 +12,7 @@ h1 {
     top: 35px;
     background-color: aliceblue;
     border:1px solid black;
+    font-style: oblique;
 }
 
 h2 {
@@ -38,10 +35,6 @@ p {
     column-rule: 0.1rem solid black;
 }
 
-/* img {
-    display: block;
-    margin: auto;
-} */
 
 img {
     position: relative;
