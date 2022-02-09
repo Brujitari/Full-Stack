@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.entrenoticias {
+    text-align: center;
+    color:purple;
+}
+
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30px;
+    position: sticky;
+    top: 30px;
+    background-color: aliceblue;
+}
+
+h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 50px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    column-count: 5;
+    column-gap: 30px;
+    column-rule: 0.1rem solid black;
+}
+
+/* img {
+    display: block;
+    margin: auto;
+} */
+
+img {
+    position: relative;
+    left: 20px ;
+}
+
+
+div {
+    margin: 20px;
+}
