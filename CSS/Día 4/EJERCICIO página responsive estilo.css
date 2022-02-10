@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+} 
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color:rgb(41, 125, 151);
+}
+
+#hero {
+    background-color: rgb(141, 5, 5);
+}
+
+#content {
+    background-color: rgb(24, 85, 24);
+}
+
+#sidebar {
+    background-color: rgb(136, 26, 136);
+}
+
+footer {
+    background-color: rgb(240, 86, 240);
+}
+
+@media (min-width: 600px) {
+    #flex {
+        display: flex;
+    }
+}
+
+@media (min-width: 992px) {
+    #flex {
+        width: 80%;
+        justify-content: center;
+    }
+}
