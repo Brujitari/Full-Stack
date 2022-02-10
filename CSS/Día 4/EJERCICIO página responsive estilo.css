@@ -35,7 +35,13 @@ footer {
 
 @media (min-width: 992px) {
     #flex {
-        width: 80%;
+        display: flex;
         justify-content: center;
+    }
+    #content {
+        width: 600px;
+    }
+    #sidebar {
+        width: 600px;
     }
 }
