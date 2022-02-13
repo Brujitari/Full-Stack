@@ -39,15 +39,24 @@ p {
     column-count: 5;
     column-gap: 30px;
     column-rule: 0.1rem solid black;
+    max-width:min-content;
 }
 
 
 img {
     position: relative;
-    left: 20px ;
+    left: 20px;
+    max-height: min-content;
+    
 }
 
 
 div {
     margin: 20px;
 }
+
+.flex {
+    display: flex;
+    justify-content:space-between;
+    gap: 50px;
+} 
